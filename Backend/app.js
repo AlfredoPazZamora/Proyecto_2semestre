@@ -11,9 +11,9 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }))
 
-app.get('/', function (req, res) {
-  res.send('Hello World! node');
-});
+// app.get('/', function (req, res) {
+//   res.send('Hello World! node');
+// });
 
 // Middleware para Vue.js router modo history
 const history = require('connect-history-api-fallback');
